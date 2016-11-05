@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Spinner from 'react-spinkit';
-import { List } from 'react-virtualized';
+import { List, WindowScroller } from 'react-virtualized';
+import 'react-virtualized/styles.css'; // only needs to be imported once
 
 export default class ProjectsList extends Component {
 	constructor(props) {
@@ -34,7 +35,6 @@ export default class ProjectsList extends Component {
 	        key={key}
 	        style={style}
 	      >
-	        <span>
 	          <p style={rowStyle.p}>
 	          <i style={rowStyle.i} className="material-icons">
 	            <a href={source[index]} target="_blank">
@@ -50,7 +50,6 @@ export default class ProjectsList extends Component {
 	              </a>
 	            </i>
 	          </p>
-	        </span>
 	      </div>
 	    );
 	}
@@ -72,15 +71,19 @@ export default class ProjectsList extends Component {
 	      width: 'auto',
 	    };
 	    return (
-	    	<List
-	            style={listStyle}
-	            width={500}
-	            height={300}
-	            rowCount={this.props.dataRepos.length}
-	            rowHeight={40}
-	            rowRenderer={this.rowRenderer}
-	            noRowsRenderer={this.noRowsRenderer}
-	        />
+	    	<WindowScroller>
+	    		{({ height, isScrolling, scrollTop }) => (
+			    	<List
+			            style={listStyle}
+			            height={270}
+			            width={500}
+			            rowCount={this.props.dataRepos.length}
+			            rowHeight={70}
+			            rowRenderer={this.rowRenderer}
+			            noRowsRenderer={this.noRowsRenderer}
+			        />
+				)}
+  			</WindowScroller>
         );
 	}
 }

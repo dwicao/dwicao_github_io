@@ -21475,7 +21475,7 @@
 	exports.push([module.id, "@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700);", ""]);
 
 	// module
-	exports.push([module.id, "/* ================================= \n  WEB FONTS\n==================================== */\n\n/* ================================= \n  ELEMENT STYLES\n==================================== */\n\n* {\n  box-sizing: border-box;\n}\nbody {\n  color: #576366;\n  background: #607d8b;\n  margin: 0;\n  font-family: 'Roboto', sans-serif;\n}\nh1,\nh2,\nul {\n  margin: 0;\n  padding: 0;\n}\nh2 {\n  color: #404040;\n  font-size: 1.6em;\n  margin-bottom: 1.25em;\n}\nh3 {\n  margin-bottom: 1.5em;\n}\nul {\n  list-style-type: none;\n}\na {\n  text-decoration: none;\n  color: #3b80d1;\n}\nhr {\n  border: 0;\n  height: 0;\n  margin: 2.3em 0 2em 0;\n  border-top: 1px solid rgba(0, 0, 0, .1);\n}\n\n/* FORM & BUTTON STYLES -------- */\n\n.home a,\ninput,\nbutton {\n  padding: .5em;\n  font-size: .9em;\n  margin-right: 10px;\n  border: none;\n  border-radius: 3px;\n  border: solid 1px #ccc;\n  outline: none;\n}\nbutton {\n  color: white;\n  background: #4188dc;\n  padding-left: 1em;\n  padding-right: 1em;\n  cursor: pointer;\n  border-color: rgba(0,0,0, .1);\n}\n\n/* ================================= \n  LAYOUT & PAGE STYLES\n==================================== */\n\n.container {\n  width: 95%;\n  max-width: 780px;\n  padding-bottom: 2em;\n  margin: 20px auto 2em;\n  background: #fff;\n  border-radius: .5em;\n  box-shadow: 0 3px rgba(0,0,0, .1);\n  overflow: hidden;\n}\nheader {\n  background: #edeff0;\n  margin-bottom: 2em;\n}\n.main-content {\n  padding: 1em 2em;\n}\n.group:after {\n  content: \"\";\n  display: table;\n  clear: both;\n}\n\n/* MAIN NAV -------- */\n\n.main-nav a {\n  font-size: .95em;\n  color: #222;\n  text-align: center;\n  text-transform: uppercase;\n  display: block;\n  padding: 1em;\n  transition: .2s;\n}\n.main-nav a:hover,\n.main-nav .active {\n  color: #fff;\n  background: #3b80d1;\n}\n\n/* ICONS -------- */\n\n.icn-logo {\n  background: #54606b;\n  color: #fff;\n}\n.icn-logo i {\n  font-size: 2.45em;\n  line-height: 0;\n  margin-top: 30px;\n}\n\n\n/* ================================= \n  MEDIA QUERIES\n==================================== */\n\n@media (min-width: 0) and (max-width: 768px) { \n  body {\n    padding-top: .8em;\n  }\n  .container {\n      margin: 0px auto 2em;\n  }\n  .home a {\n    border-color: transparent;\n  }\n   .icn-logo {\n     display: block;\n     width: 100%;\n     text-align: center;\n     padding-bottom: 4px;\n   }\n   .main-nav a {\n     border-top: 2px solid transparent;\n     border-bottom: 2px solid transparent;\n   }\n   .main-nav a:hover {\n     border-color: rgba(0,0,0, .1);\n   }\n   .home a,\n   input,\n   button {\n     display: block;\n     width: 100%;\n     margin-bottom: 1em;\n   }\n}\n@media (min-width: 769px) {\n  body {\n\n  }\n  .home a {\n    border-color: #3b80d1;\n  }\n  .media img,\n  .media > div {\n    float: left;\n  }\n  .media > div {\n    width: 85.1%;\n    margin-left: 1.5em;\n  } \n\n  /* MAIN NAV -------- */\n  .icn-logo {\n    margin-right: auto;\n    padding: 0 2em;\n  }\n  header,\n  .main-nav {\n    display: flex;\n    flex-wrap: wrap;\n  }\n  .main-nav a {\n    border-left: 3px solid transparent;\n    border-right: 3px solid transparent;\n    padding: 1.25em 1.5em;\n  }\n  .main-nav a:hover {\n    border-color: rgba(0,0,0, .1);\n  }\n\n}", ""]);
+	exports.push([module.id, "/* ================================= \n  WEB FONTS\n==================================== */\n\n/* ================================= \n  ELEMENT STYLES\n==================================== */\n\n* {\n  box-sizing: border-box;\n}\nbody {\n  color: #576366;\n  background: #607d8b;\n  margin: 0;\n  font-family: 'Roboto', sans-serif;\n}\nh1,\nh2,\nul {\n  margin: 0;\n  padding: 0;\n}\nh2 {\n  color: #404040;\n  font-size: 1.6em;\n  margin-bottom: 1.25em;\n}\nh3 {\n  margin-bottom: 1.5em;\n}\nul {\n  list-style-type: none;\n}\na {\n  text-decoration: none;\n  color: #3b80d1;\n}\nhr {\n  border: 0;\n  height: 0;\n  margin: 2.3em 0 2em 0;\n  border-top: 1px solid rgba(0, 0, 0, .1);\n}\n\n/* FORM & BUTTON STYLES -------- */\n\n.home a,\ninput,\nbutton {\n  padding: .5em;\n  font-size: .9em;\n  margin-right: 10px;\n  border: none;\n  border-radius: 3px;\n  border: solid 1px #ccc;\n  outline: none;\n}\nbutton {\n  color: white;\n  background: #4188dc;\n  padding-left: 1em;\n  padding-right: 1em;\n  cursor: pointer;\n  border-color: rgba(0,0,0, .1);\n}\n\n/* ================================= \n  LAYOUT & PAGE STYLES\n==================================== */\n\n.container {\n  width: 95%;\n  max-width: 780px;\n  padding-bottom: 2em;\n  margin: 20px auto 2em;\n  background: #fff;\n  border-radius: .5em;\n  box-shadow: 0 3px rgba(0,0,0, .1);\n  overflow: hidden;\n}\nheader {\n  background: #edeff0;\n  margin-bottom: 2em;\n}\n.main-content {\n  padding: 1em 2em;\n}\n.group:after {\n  content: \"\";\n  display: table;\n  clear: both;\n}\n\n/* MAIN NAV -------- */\n\n.main-nav a {\n  font-size: .95em;\n  color: #222;\n  text-align: center;\n  text-transform: uppercase;\n  display: block;\n  padding: 1em;\n  transition: .2s;\n}\n.main-nav a:hover,\n.main-nav .active {\n  color: #fff;\n  background: #3b80d1;\n}\n\n/* ICONS -------- */\n\n.icn-logo {\n  background: #54606b;\n  color: #fff;\n}\n.icn-logo i {\n  font-size: 2.45em;\n  line-height: 0;\n  margin-top: 30px;\n}\n\n\n/* ================================= \n  MEDIA QUERIES\n==================================== */\n\n@media (min-width: 0) and (max-width: 768px) { \n  body {\n    padding-top: .8em;\n  }\n  .container {\n      margin: 10px auto 2em;\n  }\n  .home a {\n    border-color: transparent;\n  }\n   .icn-logo {\n     display: block;\n     width: 100%;\n     text-align: center;\n     padding-bottom: 4px;\n   }\n   .main-nav a {\n     border-top: 2px solid transparent;\n     border-bottom: 2px solid transparent;\n   }\n   .main-nav a:hover {\n     border-color: rgba(0,0,0, .1);\n   }\n   .home a,\n   input,\n   button {\n     display: block;\n     width: 100%;\n     margin-bottom: 1em;\n   }\n}\n@media (min-width: 769px) {\n  body {\n\n  }\n  .home a {\n    border-color: #3b80d1;\n  }\n  .media img,\n  .media > div {\n    float: left;\n  }\n  .media > div {\n    width: 85.1%;\n    margin-left: 1.5em;\n  } \n\n  /* MAIN NAV -------- */\n  .icn-logo {\n    margin-right: auto;\n    padding: 0 2em;\n  }\n  header,\n  .main-nav {\n    display: flex;\n    flex-wrap: wrap;\n  }\n  .main-nav a {\n    border-left: 3px solid transparent;\n    border-right: 3px solid transparent;\n    padding: 1.25em 1.5em;\n  }\n  .main-nav a:hover {\n    border-color: rgba(0,0,0, .1);\n  }\n\n}", ""]);
 
 	// exports
 
@@ -29268,6 +29268,8 @@
 
 	var _reactVirtualized = __webpack_require__(294);
 
+	__webpack_require__(343);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -29275,6 +29277,8 @@
 	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	// only needs to be imported once
 
 	var ProjectsList = function (_Component) {
 		_inherits(ProjectsList, _Component);
@@ -29323,31 +29327,27 @@
 						style: style
 					},
 					_react2.default.createElement(
-						'span',
-						null,
+						'p',
+						{ style: rowStyle.p },
 						_react2.default.createElement(
-							'p',
-							{ style: rowStyle.p },
+							'i',
+							{ style: rowStyle.i, className: 'material-icons' },
 							_react2.default.createElement(
-								'i',
-								{ style: rowStyle.i, className: 'material-icons' },
-								_react2.default.createElement(
-									'a',
-									{ href: source[index], target: '_blank' },
-									'code'
-								)
-							),
-							' ',
-							name[index],
-							' ',
+								'a',
+								{ href: source[index], target: '_blank' },
+								'code'
+							)
+						),
+						' ',
+						name[index],
+						' ',
+						_react2.default.createElement(
+							'i',
+							{ style: rowStyle.i, className: 'material-icons' },
 							_react2.default.createElement(
-								'i',
-								{ style: rowStyle.i, className: 'material-icons' },
-								_react2.default.createElement(
-									'a',
-									{ href: homepage[index], target: '_blank' },
-									'launch'
-								)
+								'a',
+								{ href: homepage[index], target: '_blank' },
+								'launch'
 							)
 						)
 					)
@@ -29369,18 +29369,29 @@
 		}, {
 			key: 'render',
 			value: function render() {
+				var _this2 = this;
+
 				var listStyle = {
 					width: 'auto'
 				};
-				return _react2.default.createElement(_reactVirtualized.List, {
-					style: listStyle,
-					width: 500,
-					height: 300,
-					rowCount: this.props.dataRepos.length,
-					rowHeight: 40,
-					rowRenderer: this.rowRenderer,
-					noRowsRenderer: this.noRowsRenderer
-				});
+				return _react2.default.createElement(
+					_reactVirtualized.WindowScroller,
+					null,
+					function (_ref2) {
+						var height = _ref2.height,
+						    isScrolling = _ref2.isScrolling,
+						    scrollTop = _ref2.scrollTop;
+						return _react2.default.createElement(_reactVirtualized.List, {
+							style: listStyle,
+							height: 270,
+							width: 500,
+							rowCount: _this2.props.dataRepos.length,
+							rowHeight: 70,
+							rowRenderer: _this2.rowRenderer,
+							noRowsRenderer: _this2.noRowsRenderer
+						});
+					}
+				);
 			}
 		}]);
 
@@ -36792,6 +36803,46 @@
 	  onScroll: _react.PropTypes.func.isRequired
 	} : void 0;
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
+
+/***/ },
+/* 343 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+
+	// load the styles
+	var content = __webpack_require__(344);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(175)(content, {});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(false) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept("!!./../css-loader/index.js!./styles.css", function() {
+				var newContent = require("!!./../css-loader/index.js!./styles.css");
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 344 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(174)();
+	// imports
+
+
+	// module
+	exports.push([module.id, "/* Collection default theme */\n\n.ReactVirtualized__Collection {\n}\n\n.ReactVirtualized__Collection__innerScrollContainer {\n}\n\n/* Grid default theme */\n\n.ReactVirtualized__Grid {\n}\n\n.ReactVirtualized__Grid__innerScrollContainer {\n}\n\n/* Table default theme */\n\n.ReactVirtualized__Table {\n}\n\n.ReactVirtualized__Table__Grid {\n}\n\n.ReactVirtualized__Table__headerRow {\n  font-weight: 700;\n  text-transform: uppercase;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: row;\n          flex-direction: row;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n}\n.ReactVirtualized__Table__row {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: row;\n          flex-direction: row;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n}\n\n.ReactVirtualized__Table__headerTruncatedText {\n  display: inline-block;\n  max-width: 100%;\n  white-space: nowrap;\n  text-overflow: ellipsis;\n  overflow: hidden;\n}\n\n.ReactVirtualized__Table__headerColumn,\n.ReactVirtualized__Table__rowColumn {\n  margin-right: 10px;\n  min-width: 0px;\n}\n.ReactVirtualized__Table__rowColumn {\n  text-overflow: ellipsis;\n  white-space: nowrap;\n}\n\n.ReactVirtualized__Table__headerColumn:first-of-type,\n.ReactVirtualized__Table__rowColumn:first-of-type {\n  margin-left: 10px;\n}\n.ReactVirtualized__Table__sortableHeaderColumn {\n  cursor: pointer;\n}\n\n.ReactVirtualized__Table__sortableHeaderIconContainer {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n}\n.ReactVirtualized__Table__sortableHeaderIcon {\n  -webkit-box-flex: 0;\n      -ms-flex: 0 0 24px;\n          flex: 0 0 24px;\n  height: 1em;\n  width: 1em;\n  fill: currentColor;\n}\n\n/* List default theme */\n\n.ReactVirtualized__List {\n}\n", ""]);
+
+	// exports
+
 
 /***/ }
 /******/ ]);
