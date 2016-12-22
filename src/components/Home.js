@@ -22,7 +22,8 @@ function Home(props) {
         </h2>
         <i style={homeStyles.icon} className="material-icons">dvr</i>
         <h3 style={homeStyles.center}>
-        	I create Web Apps with ReactJS and MeteorJS
+        	I love to create Web & Mobile Apps{'\n'}
+          with ReactJS & React Native
        	</h3>
         
       </div>
